@@ -58,8 +58,7 @@ main {
   font-size: 30px;
   background-color: red;
   position: absolute;
-  right: 50px;
-  left: 150px;
-  top: 200px;
-  bottom: 100px;
+  right: 0;
+  top: 0;
+  
 }
