@@ -25,10 +25,12 @@
   border: none;
   border-bottom: 1px solid #ccc;
   
-.form-row > input::placeholder {
-  color: #ccc;
-  font-style: italic;
+.form-row > input::placeholder; {
+  color; #ccc;
+  font-style; italic;
 }
+
+
 .form-row > button {
   padding-left: 50px;
   padding-right: 50px;
