@@ -8,7 +8,9 @@ body * {
 }
 
 body {
-  background-color: #7dbccd;
+  
+  background: #015cda;
+  background: linear-gradient(171deg, #019DDE 0%, #4D3360 100%);
 }
 
 .background {
@@ -19,7 +21,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  filter: blur(8px);
+  filter: blur(20px);
 }
 
 
@@ -27,8 +29,9 @@ main {
   display: inline-block;
   width: 800px;
   position: absolute;
-  top: 80px;
-  left: calc(50% - 400px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .left-column {
