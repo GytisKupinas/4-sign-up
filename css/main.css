@@ -8,9 +8,8 @@ body * {
 }
 
 body {
-  
-  background: #015cda;
-  background: linear-gradient(171deg, #019DDE 0%, #4D3360 100%);
+  background: #615ed2;
+  background: linear-gradient(171deg, #009fe0 0%, #4e3463 100%);
 }
 
 .background {
@@ -23,7 +22,6 @@ body {
   background-position: center;
   filter: blur(20px);
 }
-
 
 main {
   display: inline-block;
@@ -44,9 +42,17 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: 0;
 }
 
 .bottom-links {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 20px;
 }
 .bottom-links > a {
   color: #fff;
@@ -56,11 +62,12 @@ main {
 
 .main-title {
   font-size: 60px;
+  line-height: 50px;
 }
 
 .right-column {
   width: 60%;
-  float: left;
+  float: right;
   padding: 60px;
   background-color: #fff;
   position: relative;
@@ -76,6 +83,4 @@ main {
   position: absolute;
   right: 0;
   top: 0;
-  
-  
 }
